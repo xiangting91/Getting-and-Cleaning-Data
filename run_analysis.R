@@ -8,7 +8,7 @@
 ## Download the file and put the file in the Working Directory
 Url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(Url,destfile="./Dataset.zip")
-unzip(zipfile="./data/Dataset.zip",exdir="./")
+unzip(zipfile="./Dataset.zip")
 path_rf <- file.path("./" , "UCI HAR Dataset")
 files<-list.files(path_rf, recursive=TRUE)
 
